@@ -1,0 +1,32 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	SRR12905294	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp.json
+fastp	all_sections	SRR12905299	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp.json
+fastp	all_sections	SRR12905308	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp.json
+fastp	all_sections	qc | trimmed | SRR12905294	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp.json
+fastp	all_sections	qc | trimmed | SRR12905299	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp.json
+fastp	all_sections	qc | trimmed | SRR12905308	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp.json
+FastQC	all_sections	SRR12905294_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905294_1_fastqc.zip
+FastQC	all_sections	SRR12905294_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905294_2_fastqc.zip
+FastQC	all_sections	SRR12905294_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	SRR12905294_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp_2.trimmed_fastqc.zip
+FastQC	all_sections	SRR12905299_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905299_1_fastqc.zip
+FastQC	all_sections	SRR12905299_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905299_2_fastqc.zip
+FastQC	all_sections	SRR12905299_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	SRR12905299_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp_2.trimmed_fastqc.zip
+FastQC	all_sections	SRR12905308_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905308_1_fastqc.zip
+FastQC	all_sections	SRR12905308_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905308_2_fastqc.zip
+FastQC	all_sections	SRR12905308_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	SRR12905308_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp_2.trimmed_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905294_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905294_1_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905294_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905294_2_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905299_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905299_1_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905299_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905299_2_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905308_1	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905308_1_fastqc.zip
+FastQC	all_sections	qc | raw | SRR12905308_2	/home/alevichek/Bluepus_multi_analysis/qc/raw/SRR12905308_2_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905294_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905294_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905294_fastp_2.trimmed_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905299_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905299_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905299_fastp_2.trimmed_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905308_fastp_1	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp_1.trimmed_fastqc.zip
+FastQC	all_sections	qc | trimmed | SRR12905308_fastp_2	/home/alevichek/Bluepus_multi_analysis/qc/trimmed/SRR12905308_fastp_2.trimmed_fastqc.zip
+Snippy	snippy	qc | multiqc | all_samples_multiqc_report_data | multiqc	/home/alevichek/Bluepus_multi_analysis/qc/multiqc/all_samples_multiqc_report_data/multiqc.log

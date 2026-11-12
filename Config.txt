@@ -1,0 +1,61 @@
+# 1. Системные ресурсы и директории 
+THREADS=8
+WORKDIR="./Bluepus_multi_analysis"
+
+# 2. Названия конда-окружений и пути к локальным программам 
+ENV_MAIN="NGS_practice"       # fastqc, multiqc, fastp, trimmomatic, bwa, bowtie2, samtools, deeptools
+ENV_QUALIMAP="qualimap"       # qualimap
+ENV_FREEBAYES="freebayes"     # freebayes
+ENV_SNPEFF="snpeff"           # snpeff
+ENV_BCF="vcf_tools"           # bcftools
+
+FASTERQDUMP_BIN="/home/alevichek/programs/soft/sratoolkit.3.0.0-ubuntu64/bin/fasterq-dump"
+GATK_BIN="/home/alevichek/gatk-4.4.0.0/gatk"
+
+# 3. Список исследуемых образцов (SRA Run IDs) 
+SRA_IDS=(
+    "SRR12905294"
+    "SRR12905308"
+    "SRR12905299"
+)
+
+# Ссылки на референс P. aeruginosa PAO1 (NCBI RefSeq: GCF_000006765.1)
+REF_FNA_URL="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/765/GCF_000006765.1_ASM676v1/GCF_000006765.1_ASM676v1_genomic.fna.gz"
+REF_GTF_URL="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/765/GCF_000006765.1_ASM676v1/GCF_000006765.1_ASM676v1_genomic.gtf.gz"
+
+# 4. Выбор инструментов 
+TRIMMER="fastp"               # "fastp" или "trimmomatic"
+ALIGNER="bwa"                 # "bwa" или "bowtie2"
+CALLER="gatk"                 # "gatk" или "freebayes"
+
+# Дополнительные параметры для выравнивателей
+BWA_PARAMS="-k 20 -I 231,50,400,100"
+BOWTIE2_PARAMS="--very-sensitive -N 1 -X 400"
+
+# Настройки для Trimmomatic
+TRIMMOMATIC_ADAPTERS="/home/alevichek/.conda/envs/NGS_practice/share/trimmomatic/adapters/TruSeq3-PE.fa"
+TRIM_LEADING=3
+TRIM_TRAILING=3
+TRIM_SLIDINGWINDOW="4:15"
+TRIM_MINLEN=36
+
+# 5. Базовые параметры Read Groups (@RG) 
+RG_ID="Bluepus_run"
+RG_SM="Bluepus_sample"
+RG_PL="Nextseq500"
+RG_LB="Lib"
+RG_PU="Unit"
+
+# 6. Поиск фактора патогенности 
+VIRULENCE_GENE="toxA"
+
+# 7. Параметры Variant Calling 
+PLOIDY=1
+
+# 8. Параметры deepTools plotCoverage
+NUMOFSAMPL=100000
+
+# 9. Параметры для snpeff и фильтрации vcf 
+MIN_QUAL=30
+MIN_DP=10
+SNPEFF_DB="Pseudomonas_aeruginosa_pao1_gca_000006765"

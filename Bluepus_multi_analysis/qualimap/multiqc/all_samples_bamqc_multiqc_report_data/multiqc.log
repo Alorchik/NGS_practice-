@@ -1,0 +1,142 @@
+[2026-11-05 09:16:25,836] root                                               [DEBUG  ]  Logging to file: /scratch/tmpz6xgztdp/multiqc.log
+[2026-11-05 09:16:25,839] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.35
+[2026-11-05 09:16:25,839] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]
+[2026-11-05 09:16:25,839] multiqc.core.update_config                         [INFO   ]  Prepending directory to sample names
+[2026-11-05 09:16:25,841] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
+[2026-11-05 09:16:26,026] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.35&version_python=3.11.16&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=True&is_uv=False&is_ci=False&is_notebook=False&ai_summary=False&ai_summary_full=False&ai_provider=seqera HTTP/1.1" 200 178
+[2026-11-05 09:16:26,027] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.35, released 2026-05-13
+[2026-11-05 09:16:26,029] multiqc.multiqc                                    [DEBUG  ]  Working dir : /home/alevichek/Bluepus_multi_analysis
+[2026-11-05 09:16:26,029] multiqc.multiqc                                    [DEBUG  ]  Template    : default
+[2026-11-05 09:16:26,030] multiqc.multiqc                                    [DEBUG  ]  Command used: /home/alevichek/.conda/envs/NGS_practice/bin/multiqc qualimap/ -o qualimap/multiqc -n all_samples_bamqc_multiqc_report.html --force --dirs
+[2026-11-05 09:16:26,030] multiqc.core.file_search                           [INFO   ]  Search path: /home/alevichek/Bluepus_multi_analysis/qualimap
+[2026-11-05 09:16:26,033] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: bases2fastq, cellranger_arc, cells2stats, deacon, hicstuff, hifi_trimmer, methurator, ribotish, ribowaltz, riker, seqkit, sompy, xenium, custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, percolator, haplocheck, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, checkm, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, glimpse, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featurecounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, checkm2, qc3C, nanoq, nanostat, samblaster, samtools, bamtools, sambamba, ngsbits, pairtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umicollapse, umitools, truvari, megahit, sincei, ganon, gtdbtk, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, hostile, cellranger, checkatlas, snpsplit, odgi, vg, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterremoval, bbduk, clipandmerge, cutadapt, trim_galore, flexbar, sourmash, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, seqfu, fastq_screen, fastqe, afterqc, fastp, fastqc, sequali, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, sylphtax, seqwho, telseq, ataqv, mgikit, mosaicatcher, software_versions
+[2026-11-05 09:16:26,033] multiqc.core.file_search                           [DEBUG  ]  Search keys: adapterremoval, afterqc, anglerfish, ataqv, bakta, bamdst, bamtools, bases2fastq, bbduk, bbmap, bcftools, bcl2fastq, bclconvert, biobambam2, biobloomtools, biscuit, bismark, bowtie1, bowtie2, busco, bustools, ccs, cellranger, cellranger_arc, cells2stats, checkatlas, checkm, checkm2, checkqc, clipandmerge, clusterflow, conpair, custom_content, cutadapt, damageprofiler, deacon, dedup, deeptools, diamond, disambiguate, dragen, dragen_fastqc, eigenstratdatabasetools, fastp, fastq_screen, fastqc, fastqe, featurecounts, fgbio, filtlong, flash, flexbar, freyja, ganon, gatk, gffcompare, glimpse, goleft_indexcov, gopeaks, gtdbtk, haplocheck, happy, hicexplorer, hicpro, hicstuff, hicup, hifi_trimmer, hifiasm, hisat2, homer, hops, hostile, htseq, humid, interop, isoseq, ivar, jcvi, jellyfish, kaiju, kallisto, kat, kraken, leehom, librarian, lima, longranger, macs2, malt, mapdamage, megahit, metaphlan, methurator, methylqa, mgikit, minionqc, mirtop, mirtrace, mosaicatcher, mosdepth, motus, mtnucratio, multiqc_data, multivcfanalyzer, nanoq, nanostat, nextclade, ngsbits, ngsderive, nonpareil, odgi, optitype, pairtools, pangolin, pbmarkdup, peddy, percolator, phantompeakqualtools, picard, porechop, preseq, prinseqplusplus, prokka, purple, pychopper, pycoqc, qc3C, qorts, qualimap, quast, ribotish, ribowaltz, riker, rna_seqc, rockhopper, rsem, rseqc, salmon, sambamba, samblaster, samtools, sargasso, seqera_cli, seqfu, seqkit, sequali, seqwho, seqyclean, sexdeterrmine, sickle, sincei, skewer, slamdunk, snippy, snpeff, snpsplit, software_versions, somalier, sompy, sortmerna, sourmash, spaceranger, stacks, star, supernova, sylphtax, telseq, theta2, tophat, trim_galore, trimmomatic, truvari, umicollapse, umitools, varscan2, vcftools, vep, verifybamid, vg, whatshap, xengsort, xenium, xenome
+[2026-11-05 09:16:26,331] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_module_specific_max_filesize: 95|, |skipped_no_match: 272|, |skipped_ignore_pattern: 1|
+[2026-11-05 09:16:26,334] multiqc.base_module                                [DEBUG  ]  Couldn't read file as utf-8: multiqc.parquet, will attempt to skip non-unicode characters
+'utf-8' codec can't decode byte 0xa2 in position 7: invalid start byte
+[2026-11-05 09:16:26,335] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading report data from parquet file: qualimap/multiqc/all_samples_bamqc_multiqc_report_data/multiqc.parquet
+[2026-11-05 09:16:26,357] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading module QualiMap from parquet
+[2026-11-05 09:16:26,357] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Extracting software versions from HTML content in parquet file
+[2026-11-05 09:16:26,357] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Skipping Software Versions module from parquet file - extracted data to global software_versions
+[2026-11-05 09:16:26,358] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading global software versions data from parquet file
+[2026-11-05 09:16:26,441] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_coverage_histogram, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,441] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  No existing plot input data for qualimap_coverage_histogram, adding new data
+[2026-11-05 09:16:26,446] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_genome_fraction, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,446] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  No existing plot input data for qualimap_genome_fraction, adding new data
+[2026-11-05 09:16:26,455] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_insert_size, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,455] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  No existing plot input data for qualimap_insert_size, adding new data
+[2026-11-05 09:16:26,458] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_gc_content, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,458] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  No existing plot input data for qualimap_gc_content, adding new data
+[2026-11-05 09:16:26,464] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for general_stats_table, type: ViolinPlotInputData
+[2026-11-05 09:16:26,464] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  No existing plot input data for general_stats_table, adding new data
+[2026-11-05 09:16:26,468] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_coverage_histogram, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,468] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Found existing plot input data for qualimap_coverage_histogram, merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,468] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_coverage_histogram
+[2026-11-05 09:16:26,485] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (1176, 13), New: (1176, 13)
+[2026-11-05 09:16:26,487] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,490] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,490] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (1176, 13)
+[2026-11-05 09:16:26,504] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,504] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Successfully merged plot input data for qualimap_coverage_histogram
+[2026-11-05 09:16:26,508] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_genome_fraction, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,509] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Found existing plot input data for qualimap_genome_fraction, merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,509] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_genome_fraction
+[2026-11-05 09:16:26,532] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (1176, 13), New: (1176, 13)
+[2026-11-05 09:16:26,533] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,535] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,535] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (1176, 13)
+[2026-11-05 09:16:26,544] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,545] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Successfully merged plot input data for qualimap_genome_fraction
+[2026-11-05 09:16:26,554] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_insert_size, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,554] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Found existing plot input data for qualimap_insert_size, merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,554] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_insert_size
+[2026-11-05 09:16:26,588] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (3000, 13), New: (3000, 13)
+[2026-11-05 09:16:26,589] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,591] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,592] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (3000, 13)
+[2026-11-05 09:16:26,607] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,608] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Successfully merged plot input data for qualimap_insert_size
+[2026-11-05 09:16:26,611] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for qualimap_gc_content, type: LinePlotNormalizedInputData
+[2026-11-05 09:16:26,611] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Found existing plot input data for qualimap_gc_content, merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,611] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_gc_content
+[2026-11-05 09:16:26,619] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (600, 13), New: (600, 13)
+[2026-11-05 09:16:26,620] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,621] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,622] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (600, 13)
+[2026-11-05 09:16:26,627] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,627] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Successfully merged plot input data for qualimap_gc_content
+[2026-11-05 09:16:26,633] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Loading plot input data for general_stats_table, type: ViolinPlotInputData
+[2026-11-05 09:16:26,633] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Found existing plot input data for general_stats_table, merging ViolinPlotInputData with ViolinPlotInputData
+[2026-11-05 09:16:26,648] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Successfully merged plot input data for general_stats_table
+[2026-11-05 09:16:26,649] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Processed 1 versions for BamQC: 2.3
+[2026-11-05 09:16:26,696] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Created plot object for qualimap_coverage_histogram
+[2026-11-05 09:16:26,707] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Created plot object for qualimap_genome_fraction
+[2026-11-05 09:16:26,721] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Created plot object for qualimap_insert_size
+[2026-11-05 09:16:26,729] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Created plot object for qualimap_gc_content
+[2026-11-05 09:16:26,744] multiqc.core.special_case_modules.load_multiqc_data [DEBUG  ]  Created plot object for general_stats_table
+[2026-11-05 09:16:26,744] multiqc.core.exec_modules                          [DEBUG  ]  Running module: custom_content
+[2026-11-05 09:16:26,746] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: custom_content
+[2026-11-05 09:16:26,746] multiqc.core.exec_modules                          [DEBUG  ]  Running module: qualimap
+[2026-11-05 09:16:26,751] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_qualimap_bamqc_genome_results.txt
+[2026-11-05 09:16:26,752] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_qualimap_bamqc_genome_results.json
+[2026-11-05 09:16:26,764] multiqc.config                                     [DEBUG  ]  Using default coverage thresholds: 1, 5, 10, 30, 50
+[2026-11-05 09:16:26,768] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_coverage_histogram: found old_data = True
+[2026-11-05 09:16:26,768] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_coverage_histogram: merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,768] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_coverage_histogram
+[2026-11-05 09:16:26,830] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (1176, 13), New: (1176, 13)
+[2026-11-05 09:16:26,831] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,832] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,833] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (1176, 13)
+[2026-11-05 09:16:26,844] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,844] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_coverage_histogram: merge completed
+[2026-11-05 09:16:26,858] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_genome_fraction: found old_data = True
+[2026-11-05 09:16:26,858] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_genome_fraction: merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,858] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_genome_fraction
+[2026-11-05 09:16:26,872] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (1176, 13), New: (1176, 13)
+[2026-11-05 09:16:26,874] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,876] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,876] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (1176, 13)
+[2026-11-05 09:16:26,885] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,885] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_genome_fraction: merge completed
+[2026-11-05 09:16:26,902] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_insert_size: found old_data = True
+[2026-11-05 09:16:26,902] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_insert_size: merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,902] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_insert_size
+[2026-11-05 09:16:26,933] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (3000, 13), New: (3000, 13)
+[2026-11-05 09:16:26,935] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,936] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,937] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (3000, 13)
+[2026-11-05 09:16:26,955] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,955] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_insert_size: merge completed
+[2026-11-05 09:16:26,972] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_gc_content: found old_data = True
+[2026-11-05 09:16:26,972] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_gc_content: merging LinePlotNormalizedInputData with LinePlotNormalizedInputData
+[2026-11-05 09:16:26,972] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge called for anchor qualimap_gc_content
+[2026-11-05 09:16:26,980] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: both old and new data present, merging. Old: (600, 13), New: (600, 13)
+[2026-11-05 09:16:26,981] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: new_keys shape: (6, 2)
+[2026-11-05 09:16:26,983] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: old_df_filtered shape: (0, 13)
+[2026-11-05 09:16:26,983] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: merged_df shape: (600, 13)
+[2026-11-05 09:16:26,989] multiqc.plots.linegraph                            [DEBUG  ]  LinePlot merge: created result with 1 datasets, 6 samples
+[2026-11-05 09:16:26,989] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_gc_content: merge completed
+[2026-11-05 09:16:26,998] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 6 BamQC reports
+[2026-11-05 09:16:26,999] multiqc.core.exec_modules                          [INFO   ]  Updating module "QualiMap"
+[2026-11-05 09:16:26,999] multiqc.core.exec_modules                          [DEBUG  ]  Running module: htseq
+[2026-11-05 09:16:27,002] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: htseq
+[2026-11-05 09:16:27,002] multiqc.core.exec_modules                          [DEBUG  ]  Running module: snippy
+[2026-11-05 09:16:27,004] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: snippy
+[2026-11-05 09:16:27,004] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
+[2026-11-05 09:16:27,006] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_software_versions.txt
+[2026-11-05 09:16:27,006] multiqc.core.write_results                         [DEBUG  ]  Rendering plots
+[2026-11-05 09:16:27,016] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: found old_data = True
+[2026-11-05 09:16:27,016] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: merging ViolinPlotInputData with ViolinPlotInputData
+[2026-11-05 09:16:27,033] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: merge completed
+[2026-11-05 09:16:27,057] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2026-11-05 09:16:27,058] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.json
+[2026-11-05 09:16:27,066] multiqc.core.ai                                    [DEBUG  ]  Saved AI prompt to multiqc_data/llms-full.txt
+[2026-11-05 09:16:27,091] multiqc.core.write_results                         [DEBUG  ]  Exporting plot data to files
+[2026-11-05 09:16:27,095] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_coverage_histogram.txt
+[2026-11-05 09:16:27,101] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_genome_fraction.txt
+[2026-11-05 09:16:27,107] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_insert_size.txt
+[2026-11-05 09:16:27,108] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_gc_content.txt
+[2026-11-05 09:16:27,108] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/scratch/tmpz6xgztdp/multiqc_data' to '/home/alevichek/Bluepus_multi_analysis/qualimap/multiqc/all_samples_bamqc_multiqc_report_data'
+[2026-11-05 09:16:27,227] multiqc.core.write_results                         [INFO   ]  Data        : qualimap/multiqc/all_samples_bamqc_multiqc_report_data   (overwritten)
+[2026-11-05 09:16:27,241] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
+[2026-11-05 09:16:27,409] multiqc.core.write_results                         [INFO   ]  Report      : qualimap/multiqc/all_samples_bamqc_multiqc_report.html   (overwritten)
