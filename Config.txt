@@ -24,7 +24,7 @@ REF_FNA_URL="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/765/GCF_000006
 REF_GTF_URL="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/765/GCF_000006765.1_ASM676v1/GCF_000006765.1_ASM676v1_genomic.gtf.gz"
 
 # 4. Выбор инструментов 
-TRIMMER="fastp"               # "fastp" или "trimmomatic"
+TRIMMER="trimmomatic"               # "fastp" или "trimmomatic"
 ALIGNER="bwa"                 # "bwa" или "bowtie2"
 CALLER="gatk"                 # "gatk" или "freebayes"
 

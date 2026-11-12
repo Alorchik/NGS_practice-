@@ -240,11 +240,13 @@ bcftools index -f "$FILTERED_VCF"
 # ==============================================================================
 # 7. АННОТАЦИЯ SNPEFF
 # ==============================================================================
+bcftools annotate --rename-chrs <(printf 'NC_002516.2\tChromosome\n') \
+    -Oz -o "${PREFIX}.snpeff_input.vcf.gz" "$FILTERED_VCF"
 conda activate "$ENV_SNPEFF"
 echo "-> Аннотация SnpEff: ${SNPEFF_DB}"
 snpEff ann \
     -stats "$REPORT_DIR/snpeff.html" \
-    "$SNPEFF_DB" "$FILTERED_VCF" \
+    "$SNPEFF_DB" "${PREFIX}.snpeff_input.vcf.gz" \
     > "$ANNOTATED_RAW" \
     2> "$REPORT_DIR/snpeff.log"
 conda activate "$ENV_BCF"

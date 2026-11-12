@@ -1,3 +1,2 @@
 Sample	BamQC
-BamQC	2.3
 QualiMap	2.3

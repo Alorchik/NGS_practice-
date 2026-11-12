@@ -1,0 +1,2 @@
+#rname	startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+NC_002516.2	1240584	1242500	3098	1917	100	123.247	34.8	60
